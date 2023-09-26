@@ -1,5 +1,3 @@
-"use client"; // Error components must be Client Components
-
 import { useEffect } from "react";
 
 const Error = ({ error, reset }: { error: Error; reset: () => void }) => {

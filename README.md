@@ -37,6 +37,24 @@ To run your application locally run this command inside your project.
 
 ## Chapter #2
 
+In Chapter #2 We have created new files and learned a bit about routing between files and how next.js has a built-n file routing system.
+
+`Layout.tsx`
+We also looked into layout.tsx and how it can be used to customise the layout of every single page and how we can add different metadata for each page from within the layout file of that page.
+
+`Loading.tsx`
+Loading.tsx can also be created for a page and every time we will route to that page loader in the loading file will run while that page is getting rendered.
+
+`Error.tsx`
+Error Handling was also included in this chapter where a file called error.tsx can be created in a folder of a specific page and than that error can be triggered from with in the page in case the page thows some error.
+
+## Chapter 3
+
+This Chapter is all about fetching data in next.js, We have created a folder called user in this project and in that folder we are fetching the data of all the users, A lib folder has been created where all the API's/Endpoints are being called.
+type.d.ts is a file that was created to store the response type from the API's.
+
+Then we have [userId] which contains the view for an individual user.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
