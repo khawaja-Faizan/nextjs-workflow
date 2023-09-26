@@ -48,6 +48,13 @@ Loading.tsx can also be created for a page and every time we will route to that 
 `Error.tsx`
 Error Handling was also included in this chapter where a file called error.tsx can be created in a folder of a specific page and than that error can be triggered from with in the page in case the page thows some error.
 
+## Chapter 3
+
+This Chapter is all about fetching data in next.js, We have created a folder called user in this project and in that folder we are fetching the data of all the users, A lib folder has been created where all the API's/Endpoints are being called.
+type.d.ts is a file that was created to store the response type from the API's.
+
+Then we have [userId] which contains the view for an individual user.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
