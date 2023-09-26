@@ -4,7 +4,8 @@ export default async function getUser(userId: string) {
   );
 
   if (!res.ok) {
-    throw new Error("Failed to fetch user");
+    return undefined;
+    // throw new Error("Failed to fetch user");
   }
 
   return res.json();

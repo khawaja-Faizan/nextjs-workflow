@@ -55,7 +55,9 @@ type.d.ts is a file that was created to store the response type from the API's.
 
 Then we have [userId] which contains the view for an individual user.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Chapter 4
+
+In this chapter we learn about the SSG,SSR and ISR
 
 ## Getting Started
 
